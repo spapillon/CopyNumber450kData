@@ -1,0 +1,4 @@
+library(minfi)
+sheet <- read.450k.sheet("../extdata", pattern = "csv$")
+RGsetEx <- read.450k.exp(targets = sheet)
+save(RGsetEx, file = "../../data/RGsetEx.rda", compress = "xz")
