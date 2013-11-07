@@ -1,0 +1,11 @@
+Package: CopyNumber450kData
+Version: 0.0.1
+Title: Example data for the Illumina Methylation 450k array
+Description: Data from 52 control samples from 450k methylation arrays
+Author: Simon Papillon-Cavanagh, Jean-Philippe Fortin, Nicolas De Jay
+Maintainer: Simon Papillon-Cavanagh <simon.papillon-cavanagh@mail.mcgill.ca>
+License: Artistic-2.0
+Depends: R (>= 2.13.0), minfi, IlluminaHumanMethylation450kmanifest,
+        IlluminaHumanMethylation450kanno.ilmn12.hg19
+LazyData: yes
+biocViews: DNAMethylation
