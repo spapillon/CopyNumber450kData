@@ -5,8 +5,8 @@
   An example control dataset for Illumina's Human Methylation 450k dataset.
 }
 \description{
-  This contains the raw data for 52 control samples from Illumina's Human
-  Methylation 450k dataset. 
+  This contains the raw data for 52 control samples from 14 different Illumina Human
+  Methylation 450k slides. 
 }
 \usage{data(RGcontrolSetEx)}
 \format{
