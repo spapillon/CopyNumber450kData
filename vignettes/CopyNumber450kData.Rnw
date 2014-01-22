@@ -40,7 +40,7 @@ data package to complement their analysis.
 <<load>>=
 require(CopyNumber450kData)
 data(RGcontrolSetEx)
-pData(RGcontrolSetEx)
+pData(RGcontrolSetEx)[,3:4]
 @
 \end{document}
 
