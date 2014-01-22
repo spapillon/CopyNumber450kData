@@ -31,8 +31,16 @@ options(keep.source=TRUE)
 
 \section{Description}
 
+In this package we provide a set of 52 control samples for the package
+CopyNumber450k. The provided controls consist of material from healthy patients
+with nominally no copy number abberations. Users of CopyNumber450k may use this
+data package to complement their analysis.
 
-\bibliographystyle{plain}
-\bibliography{biblio}
+\subsection{Example}
+<<load>>=
+require(CopyNumber450kData)
+data(RGcontrolSetEx)
+pData(RGcontrolSetEx)
+@
 \end{document}
 
